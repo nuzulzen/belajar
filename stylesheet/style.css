@@ -1,0 +1,22 @@
+h1{
+    text-align: center; color: blue;
+}
+table, th, td{
+    border: 2px solid rgb(50, 50, 112);
+    
+}
+table{
+    border-collapse:collapse;
+    width: 70%;
+}
+th{
+    text-align: left; color: gold;
+    height: 80px; width: 90px;
+    background-color: blue;
+}
+/* td{
+    text-align: center;
+} */
+tr:hover{
+    background-color: aqua;
+}

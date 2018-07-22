@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: fantasy;
+    box-sizing: border-box;
+    bor
+}
+
+.welcome{
+    text-align: center;
+    color:  #3A88F1;
+    margin: 70px;
+    font-size: 45px;
+}
+
+.main{
+    text-align: center;
+    font-size: 40px;
+    width: 350px;
+    height: 360px;
+    margin: 10px auto 0;
+    padding:none;
+    color: rgb(88, 93, 143);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid blue;
+
+}
+.pertama{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 25px;
+
+}
+.grub input[type="text"],
+.grub input[type="password"]{
+    weight:100%;
+    height: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.login input[type="submit"] {
+    color: rgb(128, 128, 238);
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+
+}
+.baru a{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 55px;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("/mountain.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+    /* height: fit-content; */
+
+}

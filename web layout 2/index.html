@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Navbar Responsif</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <ul class="topnav">
+        <li> <a href="http://">Home</a></li>
+        <li> <a href="http://">News</a></li>
+        <li> <a href="http://">Category</a></li>
+        <li> <a href="http://">Contact</a></li>
+        <li> <a href="http://">About</a></li>
+        <li class="icon">
+                <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+              </li>
+    </ul>
+        
+    <script>
+            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+            function myFunction() {
+                document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+            }
+             
+             </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.navbar {
+    float: left;
+    width: 800px;
+    list-style-type: none;
+    background-color: rgb(145, 145, 160);
+    overflow: hidden;
+}
+.navbarSupportedContent{
+    display: inline-block;
+}
+.collapse navbar-collapse li .a{
+    display: inline-block;
+}
